@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Maven Pro", sans-serif;
+  color: #031927;
+}
+
+p {
+  margin-top: 0px;
+  font-family: "Maven Pro", sans-serif;
+  color: #031927;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c8e0f4;
+  width: 100vw;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: white;
+  max-width: 800px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px #184c77;
+  z-index: 2;
+}
+
+img {
+  width: 160px;
+  height: undefined;
+}
+
+.newsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 700px;
+}
+
+.readButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.readButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: #508aa8;
+  border-radius: 8px;
+}
+
+.readButton:hover {
+  color: #508aa8;
+  background-color: white;
+  border: 2px solid #508aa8;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+}
+
+a:hover {
+  color: blue;
+}
+
+.newsRightCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.newsLeftCol {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
