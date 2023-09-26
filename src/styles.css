@@ -27,6 +27,7 @@ body {
   align-items: center;
   background-color: #c8e0f4;
   width: 100vw;
+  min-height: 100vh;
   padding-top: 30px;
 }
 
